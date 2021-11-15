@@ -7,14 +7,14 @@ In this project, We will plan, design, provision, and monitor infrastructure in 
 This section is to plan and provision a cost-effective AWS infrastructure for a new social media application development project for 50,000 single-region users. 
 
 To ensure High-Availability, We have added:
-- An appliation load balancer in front of an Auto-Scaling group of multi-AZ EC2 instances to ensure auto failover and support in case of single AZ outage.
+- An application load balancer in front of an Auto-Scaling group of multi-AZ EC2 instances to ensure auto failover and support in case of single AZ outage.
 
 To ensure High-Performance, We have added:
 - A cross-region Read Replica of RDS to serve the read traffic from the AWS region close to the users
-- A CloudFront distribution connected to a S3 bucket that host a static website to the deliver of content at high speed through edge locations.
+- A CloudFront distribution connected to a S3 bucket that host a static website to the delivery of content at high speed through edge locations.
 
 To ensure Security, We have added:
-- A RDS inside private subnets ao that it only allows traffic from the load balancers.
+- A RDS inside private subnets so that it only allows traffic from the load balancers.
 - A NAT gateway so that it only allows egress traffic from the private subnet database to download updates and patches.
 
 ![Udacity_Diagram_1](Task1/Udacity_Diagram_1.png)
@@ -23,8 +23,8 @@ To ensure Security, We have added:
 
 This section is to plan a SERVERLESS architecture schematic for a new application development project. 
 
-A Serverless architecture is recommended when we don't know the traffic we are expecting for an application and also it provided cost-efficiency as we are not provitioning any infrastructure of our own. 
-While designing we have  placed an API Gateway in front of Lambda functions to have a pay per invocation instead of provisioning resources. We have also added Amazon Cognito to manage users.
+A Serverless architecture is recommended when we don't know the traffic we are expecting for an application and also it provides cost-efficiency as we are not provisioning any infrastructure of our own.
+While designing, we have  placed an API Gateway in front of Lambda functions to have a pay per invocation instead of provisioning resources. We have also added Amazon Cognito to manage users.
 
 ![Udacity_Diagram_2](Task1/Udacity_Diagram_2.png)
 
