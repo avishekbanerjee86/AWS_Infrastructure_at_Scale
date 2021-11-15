@@ -1,2 +1,0 @@
-Added 2 additional EC2 instances that could be deployed in a different AZ to add redundancy						
-Upgraded the EC2 and RDS instances for improve performance						

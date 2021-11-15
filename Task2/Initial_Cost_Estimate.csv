@@ -6,7 +6,8 @@ Initial_Cost_Estimate,US East (N. Virginia),,Amazon EC2,0,4792.32,57507.84,USD,"
 Initial_Cost_Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,4465.6,53587.20,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Quantity (2), Instance type (db.m5.4xlarge), Deployment option (Multi-AZ), Pricing strategy (OnDemand 1yr No Upfront)"
 Initial_Cost_Estimate,US East (N. Virginia),,S3 Standard,0,2.39,28.68,USD,S3 Standard storage (100 GB per month)
 Initial_Cost_Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,"DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month)"
-Initial_Cost_Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,73,876.00,USD,Number of Site-to-Site VPN Connections (2)
+Initial_Cost_Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,110.7,1328.40,USD,Number of NAT Gateways (2)
+Initial_Cost_Estimate,US East (N. Virginia),,Amazon CloudFront,0,36.5,438.00,USD,"Data transfer out to internet (50 GB per month), Data transfer out to origin (50 GB per month), Number of requests (HTTPS) (5000000 per month), Data transfer out to internet (50 GB per month), Data transfer out to origin (50 GB per month), Number of requests (HTTPS) (5000000 per month), Number of requests (HTTPS) (5000000 per month), Data transfer out to internet (50 GB per month), Data transfer out to origin (50 GB per month)"
 
 
 
