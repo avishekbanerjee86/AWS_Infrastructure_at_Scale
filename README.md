@@ -30,7 +30,7 @@ While designing, we have  placed an API Gateway in front of Lambda functions to 
 
 ## Task 2: Calculate Infrastructure Costs
 
-We have calculated the cost on AWS calculator based on the provided scenarios and placed them under Task2 folder 
+We have calculated the cost on AWS calculator based on the provided scenarios and placed them under Task2 folder (updated)
 
 ## Task 3: Configure Permissions
 
